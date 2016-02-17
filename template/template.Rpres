@@ -1,0 +1,37 @@
+<div class="logo">
+  <a href="http://www.google.com">
+  <img src="../your-logo.png" alt="logo" style="width: 50px; height: 50px;">
+  </a>
+</div>
+
+<div class="copyright">
+© 2016 My Organization, Inc.&nbsp;&nbsp;<a href="http://www.google.com">This Goes to Google</a>
+</div>
+
+Title Slide
+========================================
+author: Your Name Here
+date: `r format(Sys.Date(), format="%B %d, %Y")`
+css: ../presentation-css.css
+
+R-Presentations
+=========================================================
+
+The presentations feature of [RStudio](http://www.rstudio.com) is awesome. You can put together a nice-looking presentation relatively quickly that you can then export to html (complete with transitions provided by reactjs) or to a PDF. 
+
+RStudio will execute any R code in your presentation when you export it, so any syntax errors will be flagged (it won't export). To top it off, the whole thing is reproducible. 
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```

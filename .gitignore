@@ -1,0 +1,10 @@
+presentations.Rproj
+.Rproj.user
+.Rhistory
+.RData
+*/*csv
+*/*txt
+*/*xls
+*/*xlsx
+*/*cache/
+*/*-figure/
